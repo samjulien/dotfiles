@@ -55,6 +55,9 @@ alias flushdns="sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder"
 # Alias for Auth0 blog dev server
 alias rpost="bundle exec jekyll serve --watch --limit_posts 1"
 
+# For screencasting, use stripped down VS Code settings with large text.
+alias teach="code --user-data-dir ~/.code_profiles/screencast/data"
+
 ## git aliases
 function gc { git commit -m "$@"; }
 alias gco="git checkout";

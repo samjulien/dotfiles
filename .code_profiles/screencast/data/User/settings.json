@@ -1,0 +1,61 @@
+{
+  "window.zoomLevel": 2,
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "eslint.autoFixOnSave": true,
+  "stylelint.enable": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "gitlens.keymap": "none",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Visual Studio Light",
+  // Controls the font family.
+  "editor.fontFamily": "Dank Mono",
+  // Controls the font size.
+  "editor.fontSize": 16,
+  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+  "editor.lineHeight": 0,
+  // Enables font ligatures.
+  "editor.fontLigatures": true,
+  // Controls if file decorations should use badges.
+  "explorer.decorations.badges": false,
+  // Sets the terminal font size.
+  "terminal.integrated.fontSize": 16,
+  // Apparently line-height works differently in the terminal.
+  "terminal.integrated.lineHeight": 1.45,
+  "materialTheme.cache.workbench.settings": {
+    "themeColours": "Default"
+  },
+  "workbench.colorCustomizations": {},
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "workbench.sideBar.location": "left",
+  "editor.hover.enabled": false,
+  "editor.parameterHints": false,
+  "editor.snippetSuggestions": "none",
+  "editor.tabCompletion": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true
+}
